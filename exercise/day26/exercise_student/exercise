@@ -1,0 +1,28 @@
+students
+--------
+id: INT(11), Primary Key
+name: VARCHAR(127)
+age: INT(11)
+major_id: INT(11)
+description: TEXT
+gender_id: INT(11)
+date_of_birth: DATE
+last_login: DATETIME
+height: DECIMAL(15,4)
+has_graduated: TINYINT(1)
+
+
+majors 
+-------
+id: INT(11), PK
+name: VARCHAR(127)
+
+gender
+-------
+id: INT(11), PK
+name: VARCHAR(127)
+
+major_student
+--------------
+major_id:
+student_id:
